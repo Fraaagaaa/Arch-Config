@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/fraga/.config/hypr/hyprland.conf" added="2025-07-28T19:13:15.027407Z" modified="2025-07-28T19:13:21.641434Z" visited="2025-07-28T19:13:15.027408Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nvim %F&apos;" modified="2025-07-28T19:13:21.641428Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/fraga/BACKUP/home-backup/fraga/a.txt" added="2025-07-28T19:23:56.854264Z" modified="2025-07-28T19:23:56.854272Z" visited="2025-07-28T19:23:56.854265Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nvim %F&apos;" modified="2025-07-28T19:23:56.854269Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/fraga/BACKUP/home-backup/fraga/.gitconfig" added="2025-07-28T19:24:12.738031Z" modified="2025-07-28T19:24:12.738035Z" visited="2025-07-28T19:24:12.738031Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nvim %F&apos;" modified="2025-07-28T19:24:12.738033Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/.gitconfig" added="2025-07-28T19:28:50.686622Z" modified="2025-07-28T19:28:50.686627Z" visited="2025-07-28T19:28:50.686623Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nvim %F&apos;" modified="2025-07-28T19:28:50.686624Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/wallpaperbetter.com_3840x2160.jpg" added="2025-07-29T13:22:57.907581Z" modified="2025-09-12T11:29:13.227298Z" visited="2025-07-29T13:22:57.907582Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-07-29T13:22:57.907583Z" count="1"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;/usr/lib/firefox/firefox %u&apos;" modified="2025-09-12T11:29:13.227296Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/omarchy-master.zip" added="2025-07-31T17:19:56.172068Z" modified="2025-07-31T17:19:56.172074Z" visited="2025-07-31T17:19:56.172069Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-07-31T17:19:56.172071Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/eduroam-linux-UdC.py" added="2025-09-08T09:38:19.985007Z" modified="2025-09-08T09:38:19.985013Z" visited="2025-09-08T09:38:19.985008Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-08T09:38:19.985010Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.8_9.tar.gz" added="2025-09-08T14:46:50.287733Z" modified="2025-09-08T14:59:57.477044Z" visited="2025-09-08T14:46:50.287734Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-08T14:59:57.477037Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/LEEME_UNIX.md" added="2025-09-08T14:51:19.722532Z" modified="2025-09-08T14:51:19.722536Z" visited="2025-09-08T14:51:19.722532Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/markdown"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-08T14:51:19.722533Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/ideaIU-2025.2.1.tar.gz" added="2025-09-08T14:57:44.680563Z" modified="2025-09-08T14:57:44.680570Z" visited="2025-09-08T14:57:44.680564Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-08T14:57:44.680565Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/apache-maven-3.9.11-bin.tar.gz" added="2025-09-08T15:01:37.565014Z" modified="2025-09-08T15:01:37.565026Z" visited="2025-09-08T15:01:37.565015Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-08T15:01:37.565017Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/apache-tomcat-11.0.11.tar.gz" added="2025-09-08T15:02:23.435764Z" modified="2025-09-08T15:02:23.435769Z" visited="2025-09-08T15:02:23.435764Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-08T15:02:23.435766Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/Untitled.jpg" added="2025-09-10T10:39:21.282646Z" modified="2025-09-10T10:39:21.596846Z" visited="2025-09-10T10:39:21.282648Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-10T10:39:21.596844Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/OpenJDK21U-jdk_x64_linux_hotspot_21.0.8_9.tar.gz" added="2025-09-10T11:42:11.335156Z" modified="2025-09-10T11:42:11.335162Z" visited="2025-09-10T11:42:11.335157Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-10T11:42:11.335159Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/.config/nvim.zip" added="2025-09-10T11:46:04.381138Z" modified="2025-09-10T11:46:04.381141Z" visited="2025-09-10T11:46:04.381139Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2025-09-10T11:46:04.381139Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/ws-javaexamples-3.9.0-src.tar.gz" added="2025-09-10T11:55:04.799666Z" modified="2025-09-10T11:55:04.799682Z" visited="2025-09-10T11:55:04.799668Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-10T11:55:04.799678Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/WelcomeSO.pdf" added="2025-09-10T12:13:24.196090Z" modified="2025-09-10T12:13:24.196097Z" visited="2025-09-10T12:13:24.196090Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-10T12:13:24.196092Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/readme.md" added="2025-09-10T17:40:02.283050Z" modified="2025-09-10T17:40:02.283053Z" visited="2025-09-10T17:40:02.283051Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/markdown"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-10T17:40:02.283051Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/ly-display-manager-main.zip" added="2025-09-10T17:42:52.231475Z" modified="2025-09-10T17:42:52.231484Z" visited="2025-09-10T17:42:52.231476Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-10T17:42:52.231479Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/DSC00110%20edited.jpg" added="2025-09-11T09:11:44.298118Z" modified="2025-09-11T09:11:44.298131Z" visited="2025-09-11T09:11:44.298120Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-11T09:11:44.298123Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/DSC00132%20edited2.jpg" added="2025-09-11T09:17:09.652118Z" modified="2025-09-11T09:17:09.652132Z" visited="2025-09-11T09:17:09.652119Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-11T09:17:09.652121Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/DSC00117.JPG" added="2025-09-11T09:17:20.338909Z" modified="2025-09-11T09:17:20.338992Z" visited="2025-09-11T09:17:20.338955Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-11T09:17:20.338987Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/SO2024-2025.zip" added="2025-09-12T11:25:52.324767Z" modified="2025-09-12T11:25:52.324771Z" visited="2025-09-12T11:25:52.324768Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-12T11:25:52.324769Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/Presentaci%C3%B3n%20_250908_180748.pdf" added="2025-09-15T07:53:41.099002Z" modified="2025-09-15T07:53:41.099006Z" visited="2025-09-15T07:53:41.099003Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-15T07:53:41.099004Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/Downloads/Git-2.51.0-64-bit.exe" added="2025-09-15T08:00:56.487978Z" modified="2025-09-15T08:00:56.487999Z" visited="2025-09-15T08:00:56.487980Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-msdownload"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-15T08:00:56.487990Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fraga/.zshrc" added="2025-09-16T09:42:08.566065Z" modified="2025-09-16T09:42:08.566072Z" visited="2025-09-16T09:42:08.566066Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-09-16T09:42:08.566068Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

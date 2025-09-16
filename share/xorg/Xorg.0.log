@@ -1,0 +1,558 @@
+[    25.957] 
+X.Org X Server 1.21.1.18
+X Protocol Version 11, Revision 0
+[    25.957] Current Operating System: Linux archlinux 6.16.5-arch1-1 #1 SMP PREEMPT_DYNAMIC Thu, 04 Sep 2025 23:18:13 +0000 x86_64
+[    25.957] Kernel command line: initrd=\initramfs-linux.img root=PARTUUID=50a5b55f-7974-438e-999c-0cd9fb45d4b4 zswap.enabled=0 rw rootfstype=ext4
+[    25.957]  
+[    25.957] Current version of pixman: 0.46.4
+[    25.957] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    25.957] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    25.957] (==) Log file: "/home/fraga/.local/share/xorg/Xorg.0.log", Time: Wed Sep 10 19:25:13 2025
+[    25.957] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[    25.957] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    25.957] (==) No Layout section.  Using the first Screen section.
+[    25.957] (==) No screen section available. Using defaults.
+[    25.957] (**) |-->Screen "Default Screen Section" (0)
+[    25.957] (**) |   |-->Monitor "<default monitor>"
+[    25.957] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    25.957] (**) Allowing byte-swapped clients
+[    25.957] (==) Automatically adding devices
+[    25.957] (==) Automatically enabling devices
+[    25.957] (==) Automatically adding GPU devices
+[    25.957] (==) Automatically binding GPU devices
+[    25.957] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    25.957] (WW) The directory "/usr/share/fonts/misc" does not exist.
+[    25.957] 	Entry deleted from font path.
+[    25.957] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/TTF".
+[    25.957] 	Entry deleted from font path.
+[    25.957] 	(Run 'mkfontdir' on "/usr/share/fonts/TTF").
+[    25.957] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/OTF".
+[    25.957] 	Entry deleted from font path.
+[    25.957] 	(Run 'mkfontdir' on "/usr/share/fonts/OTF").
+[    25.957] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[    25.957] 	Entry deleted from font path.
+[    25.957] (WW) The directory "/usr/share/fonts/100dpi" does not exist.
+[    25.957] 	Entry deleted from font path.
+[    25.957] (WW) The directory "/usr/share/fonts/75dpi" does not exist.
+[    25.957] 	Entry deleted from font path.
+[    25.957] (==) FontPath set to:
+	
+[    25.957] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    25.957] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    25.957] (II) Module ABI versions:
+[    25.957] 	X.Org ANSI C Emulation: 0.4
+[    25.957] 	X.Org Video Driver: 25.2
+[    25.957] 	X.Org XInput driver : 24.4
+[    25.957] 	X.Org Server Extension : 10.0
+[    25.957] (++) using VT number 2
+
+[    25.957] (--) controlling tty is VT number 2, auto-enabling KeepTty
+[    25.959] (II) systemd-logind: took control of session /org/freedesktop/login1/session/c2
+[    25.959] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    25.959] (II) Platform probe for /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/drm/card0
+[    25.959] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 13 paused 0
+[    25.959] (II) xfree86: Adding drm device (/dev/dri/card1)
+[    25.959] (II) Platform probe for /sys/devices/pci0000:00/0000:00:02.0/drm/card1
+[    25.960] (II) systemd-logind: got fd for /dev/dri/card1 226:1 fd 14 paused 0
+[    25.960] (**) OutputClass "nvidia" ModulePath extended to "/usr/lib/nvidia/xorg,/usr/lib/xorg/modules,/usr/lib/xorg/modules"
+[    25.960] (--) PCI:*(0@0:2:0) 8086:4626:1025:159c rev 12, Mem @ 0x6102000000/16777216, 0x4000000000/268435456, I/O @ 0x00005000/64, BIOS @ 0x????????/131072
+[    25.960] (--) PCI: (1@0:0:0) 10de:25a0:1025:159c rev 161, Mem @ 0x5f000000/16777216, 0x6000000000/4294967296, 0x6100000000/33554432, I/O @ 0x00004000/128, BIOS @ 0x????????/524288
+[    25.960] (II) LoadModule: "glx"
+[    25.961] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    25.961] (II) Module glx: vendor="X.Org Foundation"
+[    25.961] 	compiled for 1.21.1.18, module version = 1.0.0
+[    25.961] 	ABI class: X.Org Server Extension, version 10.0
+[    25.961] (II) Applying OutputClass "nvidia" to /dev/dri/card0
+[    25.961] 	loading driver: nvidia
+[    25.961] (==) Matched intel as autoconfigured driver 0
+[    25.961] (==) Matched nvidia as autoconfigured driver 1
+[    25.961] (==) Matched nouveau as autoconfigured driver 2
+[    25.961] (==) Matched nv as autoconfigured driver 3
+[    25.961] (==) Matched modesetting as autoconfigured driver 4
+[    25.961] (==) Matched fbdev as autoconfigured driver 5
+[    25.961] (==) Matched vesa as autoconfigured driver 6
+[    25.961] (==) Assigned the driver to the xf86ConfigLayout
+[    25.961] (II) LoadModule: "intel"
+[    25.961] (II) Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+[    25.961] (II) Module intel: vendor="X.Org Foundation"
+[    25.961] 	compiled for 1.21.1.16, module version = 2.99.917
+[    25.961] 	Module class: X.Org Video Driver
+[    25.961] 	ABI class: X.Org Video Driver, version 25.2
+[    25.961] (II) LoadModule: "nvidia"
+[    25.961] (II) Loading /usr/lib/xorg/modules/drivers/nvidia_drv.so
+[    25.961] (II) Module nvidia: vendor="NVIDIA Corporation"
+[    25.961] 	compiled for 1.6.99.901, module version = 1.0.0
+[    25.961] 	Module class: X.Org Video Driver
+[    25.961] (II) LoadModule: "nouveau"
+[    25.961] (II) Loading /usr/lib/xorg/modules/drivers/nouveau_drv.so
+[    25.962] (II) Module nouveau: vendor="X.Org Foundation"
+[    25.962] 	compiled for 1.21.1.14, module version = 1.0.18
+[    25.962] 	Module class: X.Org Video Driver
+[    25.962] 	ABI class: X.Org Video Driver, version 25.2
+[    25.962] (II) LoadModule: "nv"
+[    25.962] (WW) Warning, couldn't open module nv
+[    25.962] (EE) Failed to load module "nv" (module does not exist, 0)
+[    25.962] (II) LoadModule: "modesetting"
+[    25.962] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    25.962] (II) Module modesetting: vendor="X.Org Foundation"
+[    25.962] 	compiled for 1.21.1.18, module version = 1.21.1
+[    25.962] 	Module class: X.Org Video Driver
+[    25.962] 	ABI class: X.Org Video Driver, version 25.2
+[    25.962] (II) LoadModule: "fbdev"
+[    25.962] (WW) Warning, couldn't open module fbdev
+[    25.962] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[    25.962] (II) LoadModule: "vesa"
+[    25.962] (WW) Warning, couldn't open module vesa
+[    25.962] (EE) Failed to load module "vesa" (module does not exist, 0)
+[    25.962] (II) intel: Driver for Intel(R) Integrated Graphics Chipsets:
+	i810, i810-dc100, i810e, i815, i830M, 845G, 854, 852GM/855GM, 865G,
+	915G, E7221 (i915), 915GM, 945G, 945GM, 945GME, Pineview GM,
+	Pineview G, 965G, G35, 965Q, 946GZ, 965GM, 965GME/GLE, G33, Q35, Q33,
+	GM45, 4 Series, G45/G43, Q45/Q43, G41, B43
+[    25.962] (II) intel: Driver for Intel(R) HD Graphics
+[    25.962] (II) intel: Driver for Intel(R) Iris(TM) Graphics
+[    25.962] (II) intel: Driver for Intel(R) Iris(TM) Pro Graphics
+[    25.962] (II) NVIDIA dlloader X Driver  580.82.07  Wed Aug 27 18:07:42 UTC 2025
+[    25.962] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[    25.962] (II) NOUVEAU driver 
+[    25.962] (II) NOUVEAU driver for NVIDIA chipset families :
+[    25.962] 	RIVA TNT            (NV04)
+[    25.962] 	RIVA TNT2           (NV05)
+[    25.962] 	GeForce 256         (NV10)
+[    25.962] 	GeForce 2           (NV11, NV15)
+[    25.962] 	GeForce 4MX         (NV17, NV18)
+[    25.962] 	GeForce 3           (NV20)
+[    25.962] 	GeForce 4Ti         (NV25, NV28)
+[    25.962] 	GeForce FX          (NV3x)
+[    25.962] 	GeForce 6           (NV4x)
+[    25.962] 	GeForce 7           (G7x)
+[    25.962] 	GeForce 8           (G8x)
+[    25.962] 	GeForce 9           (G9x)
+[    25.962] 	GeForce GTX 2xx/3xx (GT2xx)
+[    25.962] 	GeForce GTX 4xx/5xx (GFxxx)
+[    25.962] 	GeForce GTX 6xx/7xx (GKxxx)
+[    25.962] 	GeForce GTX 9xx     (GMxxx)
+[    25.962] 	GeForce GTX 10xx    (GPxxx)
+[    25.962] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    25.962] xf86EnableIO: failed to enable I/O ports 0000-03ff (Operation not permitted)
+[    25.962] (II) intel(0): Using Kernel Mode Setting driver: i915, version 1.6.0 0
+[    25.962] (II) intel(0): SNA compiled from 2.99.917-939-g4a64400e
+[    25.963] (WW) Falling back to old probe method for modesetting
+[    25.963] (II) systemd-logind: releasing fd for 226:0
+[    25.963] (II) Loading sub module "fb"
+[    25.963] (II) LoadModule: "fb"
+[    25.963] (II) Module "fb" already built-in
+[    25.963] (II) Loading sub module "wfb"
+[    25.963] (II) LoadModule: "wfb"
+[    25.963] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[    25.963] (II) Module wfb: vendor="X.Org Foundation"
+[    25.963] 	compiled for 1.21.1.18, module version = 1.0.0
+[    25.963] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    25.963] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    25.963] (WW) intel(0): Unknown chipset
+[    25.963] (--) intel(0): CPU: x86-64, sse2, sse3, ssse3, sse4.1, sse4.2, avx, avx2; using a maximum of 14 threads
+[    25.963] (II) intel(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    25.963] (==) intel(0): Depth 24, (--) framebuffer bpp 32
+[    25.963] (==) intel(0): RGB weight 888
+[    25.963] (==) intel(0): Default visual is TrueColor
+[    25.963] (II) intel(0): Output eDP1 has no monitor section
+[    25.964] (--) intel(0): Found backlight control interface nvidia_wmi_ec_backlight (type 'firmware') for output eDP1
+[    25.964] (II) intel(0): Enabled output eDP1
+[    25.964] (II) intel(0): Output DP1 has no monitor section
+[    25.964] (II) intel(0): Enabled output DP1
+[    25.964] (II) intel(0): Output DP2 has no monitor section
+[    25.964] (II) intel(0): Enabled output DP2
+[    25.964] (--) intel(0): Using a maximum size of 256x256 for hardware cursors
+[    25.964] (II) intel(0): Output VIRTUAL1 has no monitor section
+[    25.964] (II) intel(0): Enabled output VIRTUAL1
+[    25.964] (--) intel(0): Output eDP1 using initial mode 1920x1080 on crtc 0
+[    25.964] (==) intel(0): TearFree enabled
+[    25.964] (==) intel(0): Using gamma correction (1.0, 1.0, 1.0)
+[    25.964] (==) intel(0): DPI set to (96, 96)
+[    25.964] (II) Loading sub module "dri3"
+[    25.964] (II) LoadModule: "dri3"
+[    25.964] (II) Module "dri3" already built-in
+[    25.964] (II) Loading sub module "dri2"
+[    25.964] (II) LoadModule: "dri2"
+[    25.964] (II) Module "dri2" already built-in
+[    25.964] (II) Loading sub module "present"
+[    25.964] (II) LoadModule: "present"
+[    25.964] (II) Module "present" already built-in
+[    25.964] (==) NVIDIA(G0): Depth 24, (==) framebuffer bpp 32
+[    25.964] (==) NVIDIA(G0): RGB weight 888
+[    25.964] (==) NVIDIA(G0): Default visual is TrueColor
+[    25.964] (==) NVIDIA(G0): Using gamma correction (1.0, 1.0, 1.0)
+[    25.964] (II) Applying OutputClass "nvidia" options to /dev/dri/card0
+[    25.964] (**) NVIDIA(G0): Option "AllowEmptyInitialConfiguration"
+[    25.964] (**) NVIDIA(G0): Enabling 2D acceleration
+[    25.964] (II) Loading sub module "glxserver_nvidia"
+[    25.964] (II) LoadModule: "glxserver_nvidia"
+[    25.964] (II) Loading /usr/lib/nvidia/xorg/libglxserver_nvidia.so
+[    25.971] (II) Module glxserver_nvidia: vendor="NVIDIA Corporation"
+[    25.971] 	compiled for 1.6.99.901, module version = 1.0.0
+[    25.971] 	Module class: X.Org Server Extension
+[    25.971] (II) NVIDIA GLX Module  580.82.07  Wed Aug 27 18:11:41 UTC 2025
+[    25.971] (II) NVIDIA: The X server supports PRIME Render Offload.
+[    25.978] (--) NVIDIA(0): Valid display device(s) on GPU-0 at PCI:1:0:0
+[    25.978] (--) NVIDIA(0):     DFP-0
+[    26.000] (II) NVIDIA(G0): NVIDIA GPU NVIDIA GeForce RTX 3050 Ti Laptop GPU (GA107-A) at
+[    26.000] (II) NVIDIA(G0):     PCI:1:0:0 (GPU-0)
+[    26.000] (--) NVIDIA(G0): Memory: 4194304 kBytes
+[    26.000] (--) NVIDIA(G0): VideoBIOS: 94.07.3a.40.be
+[    26.000] (II) NVIDIA(G0): Detected PCI Express Link width: 16X
+[    26.001] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[    26.001] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[    26.001] (--) NVIDIA(GPU-0): DFP-0: 165.0 MHz maximum pixel clock
+[    26.001] (--) NVIDIA(GPU-0): 
+[    26.004] (II) NVIDIA(G0): Validated MetaModes:
+[    26.004] (II) NVIDIA(G0):     "NULL"
+[    26.004] (II) NVIDIA(G0): Virtual screen size determined to be 640 x 480
+[    26.004] (WW) NVIDIA(G0): Unable to get display device for DPI computation.
+[    26.004] (==) NVIDIA(G0): DPI set to (75, 75); computed from built-in default
+[    26.004] (II) UnloadModule: "nouveau"
+[    26.004] (II) Unloading nouveau
+[    26.004] (II) UnloadModule: "modesetting"
+[    26.004] (II) Unloading modesetting
+[    26.004] (II) intel(0): SNA initialized with generic backend
+[    26.004] (==) intel(0): Backing store enabled
+[    26.004] (==) intel(0): Silken mouse enabled
+[    26.004] (II) intel(0): HW Cursor enabled
+[    26.004] (==) intel(0): DPMS enabled
+[    26.004] (==) intel(0): Display hotplug detection enabled
+[    26.004] (II) intel(0): Textured video not supported on this hardware or backend
+[    26.004] (II) intel(0): [DRI2] Setup complete
+[    26.004] (II) intel(0): [DRI2]   DRI driver: i965
+[    26.004] (II) intel(0): [DRI2]   VDPAU driver: va_gl
+[    26.004] (II) intel(0): direct rendering: DRI2 DRI3 enabled
+[    26.004] (II) intel(0): hardware support for Present enabled
+[    26.004] (WW) NVIDIA: Failed to bind sideband socket to
+[    26.004] (WW) NVIDIA:     '/var/run/nvidia-xdriver-641e2faa' Permission denied
+[    26.005] (II) NVIDIA: Reserving 24576.00 MB of virtual memory for indirect memory
+[    26.005] (II) NVIDIA:     access.
+[    26.024] (II) NVIDIA(G0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[    26.024] (II) NVIDIA(G0):     may not be running or the "AcpidSocketPath" X
+[    26.024] (II) NVIDIA(G0):     configuration option may not be set correctly.  When the
+[    26.024] (II) NVIDIA(G0):     ACPI event daemon is available, the NVIDIA X driver will
+[    26.024] (II) NVIDIA(G0):     try to use it to receive ACPI event notifications.  For
+[    26.024] (II) NVIDIA(G0):     details, please see the "ConnectToAcpid" and
+[    26.024] (II) NVIDIA(G0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[    26.024] (II) NVIDIA(G0):     Config Options in the README.
+[    26.038] (II) NVIDIA(G0): Setting mode "NULL"
+[    26.081] (==) NVIDIA(G0): Disabling shared memory pixmaps
+[    26.081] (==) NVIDIA(G0): Backing store enabled
+[    26.081] (==) NVIDIA(G0): Silken mouse enabled
+[    26.081] (==) NVIDIA(G0): DPMS enabled
+[    26.081] (II) Loading sub module "dri2"
+[    26.081] (II) LoadModule: "dri2"
+[    26.081] (II) Module "dri2" already built-in
+[    26.081] (II) NVIDIA(G0): [DRI2] Setup complete
+[    26.081] (II) NVIDIA(G0): [DRI2]   VDPAU driver: nvidia
+[    26.081] (II) Initializing extension Generic Event Extension
+[    26.081] (II) Initializing extension SHAPE
+[    26.081] (II) Initializing extension MIT-SHM
+[    26.081] (II) Initializing extension XInputExtension
+[    26.082] (II) Initializing extension XTEST
+[    26.082] (II) Initializing extension BIG-REQUESTS
+[    26.082] (II) Initializing extension SYNC
+[    26.082] (II) Initializing extension XKEYBOARD
+[    26.082] (II) Initializing extension XC-MISC
+[    26.082] (II) Initializing extension SECURITY
+[    26.082] (II) Initializing extension XFIXES
+[    26.082] (II) Initializing extension RENDER
+[    26.082] (II) Initializing extension RANDR
+[    26.082] (II) Initializing extension COMPOSITE
+[    26.082] (II) Initializing extension DAMAGE
+[    26.082] (II) Initializing extension MIT-SCREEN-SAVER
+[    26.082] (II) Initializing extension DOUBLE-BUFFER
+[    26.082] (II) Initializing extension RECORD
+[    26.082] (II) Initializing extension DPMS
+[    26.082] (II) Initializing extension Present
+[    26.082] (II) Initializing extension DRI3
+[    26.082] (II) Initializing extension X-Resource
+[    26.082] (II) Initializing extension XVideo
+[    26.082] (II) Initializing extension XVideo-MotionCompensation
+[    26.082] (II) Initializing extension GLX
+[    26.082] (II) Initializing extension GLX
+[    26.082] (II) Indirect GLX disabled.
+[    26.083] (EE) AIGLX error: dlopen of /usr/lib/dri/i965_dri.so failed (/usr/lib/dri/i965_dri.so: cannot open shared object file: No such file or directory)
+[    26.083] (EE) AIGLX error: unable to load driver i965
+[    26.122] (II) IGLX: Loaded and initialized swrast
+[    26.122] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[    26.122] (II) Initializing extension XFree86-VidModeExtension
+[    26.122] (II) Initializing extension XFree86-DGA
+[    26.122] (II) Initializing extension XFree86-DRI
+[    26.122] (II) Initializing extension DRI2
+[    26.122] (II) Initializing extension NV-GLX
+[    26.122] (II) Initializing extension NV-CONTROL
+[    26.125] (EE) intel(0): Failed to submit rendering commands (Invalid argument), disabling acceleration.
+[    26.125] (II) intel(0): switch to mode 1920x1080@144.0 on eDP1 using crtc 0, position (0, 0), rotation normal, reflection none
+[    26.129] (II) intel(0): Setting screen physical size to 508 x 285
+[    26.149] (II) config/udev: Adding input device Acer Wireless Radio Control (/dev/input/event7)
+[    26.149] (**) Acer Wireless Radio Control: Applying InputClass "libinput keyboard catchall"
+[    26.149] (**) Acer Wireless Radio Control: Applying InputClass "system-keyboard"
+[    26.149] (II) LoadModule: "libinput"
+[    26.149] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    26.150] (II) Module libinput: vendor="X.Org Foundation"
+[    26.150] 	compiled for 1.21.1.13, module version = 1.5.0
+[    26.150] 	Module class: X.Org XInput Driver
+[    26.150] 	ABI class: X.Org XInput driver, version 24.4
+[    26.150] (II) Using input driver 'libinput' for 'Acer Wireless Radio Control'
+[    26.150] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 38 paused 0
+[    26.150] (**) Acer Wireless Radio Control: always reports core events
+[    26.150] (**) Option "Device" "/dev/input/event7"
+[    26.151] (II) event7  - Acer Wireless Radio Control: is tagged by udev as: Keyboard
+[    26.151] (II) event7  - Acer Wireless Radio Control: device is a keyboard
+[    26.151] (II) event7  - Acer Wireless Radio Control: device removed
+[    26.151] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/10251229:00/input/input7/event7"
+[    26.151] (II) XINPUT: Adding extended input device "Acer Wireless Radio Control" (type: KEYBOARD, id 6)
+[    26.151] (**) Option "xkb_model" "pc105"
+[    26.151] (**) Option "xkb_layout" "es"
+[    26.151] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    26.160] (II) event7  - Acer Wireless Radio Control: is tagged by udev as: Keyboard
+[    26.160] (II) event7  - Acer Wireless Radio Control: device is a keyboard
+[    26.160] (II) config/udev: Adding input device Power Button (/dev/input/event3)
+[    26.160] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    26.160] (**) Power Button: Applying InputClass "system-keyboard"
+[    26.160] (II) Using input driver 'libinput' for 'Power Button'
+[    26.160] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 41 paused 0
+[    26.160] (**) Power Button: always reports core events
+[    26.160] (**) Option "Device" "/dev/input/event3"
+[    26.161] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[    26.161] (II) event3  - Power Button: device is a keyboard
+[    26.161] (II) event3  - Power Button: device removed
+[    26.161] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input3/event3"
+[    26.161] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[    26.161] (**) Option "xkb_model" "pc105"
+[    26.161] (**) Option "xkb_layout" "es"
+[    26.161] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    26.161] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[    26.161] (II) event3  - Power Button: device is a keyboard
+[    26.163] (II) config/udev: Adding input device Video Bus (/dev/input/event6)
+[    26.163] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    26.163] (**) Video Bus: Applying InputClass "system-keyboard"
+[    26.163] (II) Using input driver 'libinput' for 'Video Bus'
+[    26.163] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 42 paused 0
+[    26.163] (**) Video Bus: always reports core events
+[    26.163] (**) Option "Device" "/dev/input/event6"
+[    26.164] (II) event6  - Video Bus: is tagged by udev as: Keyboard
+[    26.164] (II) event6  - Video Bus: device is a keyboard
+[    26.164] (II) event6  - Video Bus: device removed
+[    26.164] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:01/input/input6/event6"
+[    26.164] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+[    26.164] (**) Option "xkb_model" "pc105"
+[    26.164] (**) Option "xkb_layout" "es"
+[    26.164] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    26.164] (II) event6  - Video Bus: is tagged by udev as: Keyboard
+[    26.165] (II) event6  - Video Bus: device is a keyboard
+[    26.165] (II) config/udev: Adding input device Video Bus (/dev/input/event5)
+[    26.165] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    26.165] (**) Video Bus: Applying InputClass "system-keyboard"
+[    26.165] (II) Using input driver 'libinput' for 'Video Bus'
+[    26.165] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 43 paused 0
+[    26.165] (**) Video Bus: always reports core events
+[    26.165] (**) Option "Device" "/dev/input/event5"
+[    26.166] (II) event5  - Video Bus: is tagged by udev as: Keyboard
+[    26.166] (II) event5  - Video Bus: device is a keyboard
+[    26.166] (II) event5  - Video Bus: device removed
+[    26.166] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:03/LNXVIDEO:00/input/input5/event5"
+[    26.166] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 9)
+[    26.166] (**) Option "xkb_model" "pc105"
+[    26.166] (**) Option "xkb_layout" "es"
+[    26.166] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    26.167] (II) event5  - Video Bus: is tagged by udev as: Keyboard
+[    26.167] (II) event5  - Video Bus: device is a keyboard
+[    26.167] (II) config/udev: Adding input device Lid Switch (/dev/input/event0)
+[    26.167] (II) No input driver specified, ignoring this device.
+[    26.167] (II) This device may have been added with another device file.
+[    26.167] (II) config/udev: Adding input device Power Button (/dev/input/event2)
+[    26.167] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    26.167] (**) Power Button: Applying InputClass "system-keyboard"
+[    26.167] (II) Using input driver 'libinput' for 'Power Button'
+[    26.167] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 44 paused 0
+[    26.167] (**) Power Button: always reports core events
+[    26.167] (**) Option "Device" "/dev/input/event2"
+[    26.167] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[    26.167] (II) event2  - Power Button: device is a keyboard
+[    26.167] (II) event2  - Power Button: device removed
+[    26.167] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input2/event2"
+[    26.167] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 10)
+[    26.167] (**) Option "xkb_model" "pc105"
+[    26.167] (**) Option "xkb_layout" "es"
+[    26.167] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    26.169] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[    26.169] (II) event2  - Power Button: device is a keyboard
+[    26.169] (II) config/udev: Adding input device Sleep Button (/dev/input/event1)
+[    26.169] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[    26.169] (**) Sleep Button: Applying InputClass "system-keyboard"
+[    26.169] (II) Using input driver 'libinput' for 'Sleep Button'
+[    26.170] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 45 paused 0
+[    26.170] (**) Sleep Button: always reports core events
+[    26.170] (**) Option "Device" "/dev/input/event1"
+[    26.170] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[    26.170] (II) event1  - Sleep Button: device is a keyboard
+[    26.170] (II) event1  - Sleep Button: device removed
+[    26.170] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input1/event1"
+[    26.170] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 11)
+[    26.170] (**) Option "xkb_model" "pc105"
+[    26.170] (**) Option "xkb_layout" "es"
+[    26.170] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    26.171] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[    26.171] (II) event1  - Sleep Button: device is a keyboard
+[    26.171] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event12)
+[    26.171] (II) No input driver specified, ignoring this device.
+[    26.171] (II) This device may have been added with another device file.
+[    26.171] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event13)
+[    26.171] (II) No input driver specified, ignoring this device.
+[    26.171] (II) This device may have been added with another device file.
+[    26.172] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event14)
+[    26.172] (II) No input driver specified, ignoring this device.
+[    26.172] (II) This device may have been added with another device file.
+[    26.172] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=9 (/dev/input/event15)
+[    26.172] (II) No input driver specified, ignoring this device.
+[    26.172] (II) This device may have been added with another device file.
+[    26.172] (II) config/udev: Adding input device ELAN050A:01 04F3:3158 Mouse (/dev/input/event10)
+[    26.172] (**) ELAN050A:01 04F3:3158 Mouse: Applying InputClass "libinput pointer catchall"
+[    26.172] (II) Using input driver 'libinput' for 'ELAN050A:01 04F3:3158 Mouse'
+[    26.187] (II) systemd-logind: got fd for /dev/input/event10 13:74 fd 46 paused 0
+[    26.187] (**) ELAN050A:01 04F3:3158 Mouse: always reports core events
+[    26.187] (**) Option "Device" "/dev/input/event10"
+[    26.189] (II) event10 - ELAN050A:01 04F3:3158 Mouse: is tagged by udev as: Mouse Pointingstick
+[    26.189] (II) event10 - ELAN050A:01 04F3:3158 Mouse: device is a pointer
+[    26.190] (II) event10 - ELAN050A:01 04F3:3158 Mouse: device removed
+[    26.190] (II) libinput: ELAN050A:01 04F3:3158 Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    26.190] (II) libinput: ELAN050A:01 04F3:3158 Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    26.190] (II) libinput: ELAN050A:01 04F3:3158 Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    26.190] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-14/i2c-ELAN050A:01/0018:04F3:3158.0001/input/input13/event10"
+[    26.190] (II) XINPUT: Adding extended input device "ELAN050A:01 04F3:3158 Mouse" (type: MOUSE, id 12)
+[    26.191] (**) Option "AccelerationScheme" "none"
+[    26.191] (**) ELAN050A:01 04F3:3158 Mouse: (accel) selected scheme none/0
+[    26.191] (**) ELAN050A:01 04F3:3158 Mouse: (accel) acceleration factor: 2.000
+[    26.191] (**) ELAN050A:01 04F3:3158 Mouse: (accel) acceleration threshold: 4
+[    26.192] (II) event10 - ELAN050A:01 04F3:3158 Mouse: is tagged by udev as: Mouse Pointingstick
+[    26.193] (II) event10 - ELAN050A:01 04F3:3158 Mouse: device is a pointer
+[    26.194] (II) config/udev: Adding input device ELAN050A:01 04F3:3158 Mouse (/dev/input/mouse0)
+[    26.194] (II) No input driver specified, ignoring this device.
+[    26.194] (II) This device may have been added with another device file.
+[    26.195] (II) config/udev: Adding input device ELAN050A:01 04F3:3158 Touchpad (/dev/input/event11)
+[    26.195] (**) ELAN050A:01 04F3:3158 Touchpad: Applying InputClass "libinput touchpad catchall"
+[    26.195] (II) Using input driver 'libinput' for 'ELAN050A:01 04F3:3158 Touchpad'
+[    26.196] (II) systemd-logind: got fd for /dev/input/event11 13:75 fd 47 paused 0
+[    26.196] (**) ELAN050A:01 04F3:3158 Touchpad: always reports core events
+[    26.196] (**) Option "Device" "/dev/input/event11"
+[    26.196] (II) event11 - ELAN050A:01 04F3:3158 Touchpad: is tagged by udev as: Touchpad
+[    26.197] (II) event11 - ELAN050A:01 04F3:3158 Touchpad: device is a touchpad
+[    26.197] (II) event11 - ELAN050A:01 04F3:3158 Touchpad: device removed
+[    26.197] (II) libinput: ELAN050A:01 04F3:3158 Touchpad: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    26.197] (II) libinput: ELAN050A:01 04F3:3158 Touchpad: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    26.197] (II) libinput: ELAN050A:01 04F3:3158 Touchpad: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    26.197] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-14/i2c-ELAN050A:01/0018:04F3:3158.0001/input/input15/event11"
+[    26.197] (II) XINPUT: Adding extended input device "ELAN050A:01 04F3:3158 Touchpad" (type: TOUCHPAD, id 13)
+[    26.197] (**) Option "AccelerationScheme" "none"
+[    26.197] (**) ELAN050A:01 04F3:3158 Touchpad: (accel) selected scheme none/0
+[    26.197] (**) ELAN050A:01 04F3:3158 Touchpad: (accel) acceleration factor: 2.000
+[    26.197] (**) ELAN050A:01 04F3:3158 Touchpad: (accel) acceleration threshold: 4
+[    26.199] (II) event11 - ELAN050A:01 04F3:3158 Touchpad: is tagged by udev as: Touchpad
+[    26.200] (II) event11 - ELAN050A:01 04F3:3158 Touchpad: device is a touchpad
+[    26.200] (II) config/udev: Adding input device ELAN050A:01 04F3:3158 Touchpad (/dev/input/mouse1)
+[    26.200] (II) No input driver specified, ignoring this device.
+[    26.200] (II) This device may have been added with another device file.
+[    26.201] (II) config/udev: Adding input device sof-hda-dsp Headset Mic (/dev/input/event16)
+[    26.201] (II) No input driver specified, ignoring this device.
+[    26.201] (II) This device may have been added with another device file.
+[    26.201] (II) config/udev: Adding input device sof-hda-dsp Headphone (/dev/input/event17)
+[    26.201] (II) No input driver specified, ignoring this device.
+[    26.201] (II) This device may have been added with another device file.
+[    26.201] (II) config/udev: Adding input device sof-hda-dsp HDMI/DP,pcm=3 (/dev/input/event18)
+[    26.201] (II) No input driver specified, ignoring this device.
+[    26.201] (II) This device may have been added with another device file.
+[    26.201] (II) config/udev: Adding input device sof-hda-dsp HDMI/DP,pcm=4 (/dev/input/event19)
+[    26.201] (II) No input driver specified, ignoring this device.
+[    26.201] (II) This device may have been added with another device file.
+[    26.201] (II) config/udev: Adding input device sof-hda-dsp HDMI/DP,pcm=5 (/dev/input/event20)
+[    26.201] (II) No input driver specified, ignoring this device.
+[    26.201] (II) This device may have been added with another device file.
+[    26.202] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event4)
+[    26.202] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[    26.202] (**) AT Translated Set 2 keyboard: Applying InputClass "system-keyboard"
+[    26.202] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    26.202] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 48 paused 0
+[    26.202] (**) AT Translated Set 2 keyboard: always reports core events
+[    26.202] (**) Option "Device" "/dev/input/event4"
+[    26.202] (II) event4  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    26.202] (II) event4  - AT Translated Set 2 keyboard: device is a keyboard
+[    26.202] (II) event4  - AT Translated Set 2 keyboard: device removed
+[    26.202] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input4/event4"
+[    26.202] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 14)
+[    26.202] (**) Option "xkb_model" "pc105"
+[    26.202] (**) Option "xkb_layout" "es"
+[    26.202] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    26.204] (II) event4  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    26.204] (II) event4  - AT Translated Set 2 keyboard: device is a keyboard
+[    26.204] (II) config/udev: Adding input device PC Speaker (/dev/input/event8)
+[    26.204] (II) No input driver specified, ignoring this device.
+[    26.204] (II) This device may have been added with another device file.
+[    26.206] (II) config/udev: Adding input device Acer WMI hotkeys (/dev/input/event9)
+[    26.206] (**) Acer WMI hotkeys: Applying InputClass "libinput keyboard catchall"
+[    26.206] (**) Acer WMI hotkeys: Applying InputClass "system-keyboard"
+[    26.206] (II) Using input driver 'libinput' for 'Acer WMI hotkeys'
+[    26.206] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 49 paused 0
+[    26.206] (**) Acer WMI hotkeys: always reports core events
+[    26.206] (**) Option "Device" "/dev/input/event9"
+[    26.206] (II) event9  - Acer WMI hotkeys: is tagged by udev as: Keyboard
+[    26.206] (II) event9  - Acer WMI hotkeys: device is a keyboard
+[    26.206] (II) event9  - Acer WMI hotkeys: device removed
+[    26.206] (**) Option "config_info" "udev:/sys/devices/virtual/input/input12/event9"
+[    26.206] (II) XINPUT: Adding extended input device "Acer WMI hotkeys" (type: KEYBOARD, id 15)
+[    26.206] (**) Option "xkb_model" "pc105"
+[    26.206] (**) Option "xkb_layout" "es"
+[    26.206] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    26.206] (II) event9  - Acer WMI hotkeys: is tagged by udev as: Keyboard
+[    26.206] (II) event9  - Acer WMI hotkeys: device is a keyboard
+[    26.621] (**) Option "fd" "38"
+[    26.621] (II) event7  - Acer Wireless Radio Control: device removed
+[    26.621] (**) Option "fd" "41"
+[    26.621] (II) event3  - Power Button: device removed
+[    26.621] (**) Option "fd" "42"
+[    26.621] (II) event6  - Video Bus: device removed
+[    26.621] (**) Option "fd" "43"
+[    26.621] (II) event5  - Video Bus: device removed
+[    26.621] (**) Option "fd" "44"
+[    26.621] (II) event2  - Power Button: device removed
+[    26.621] (**) Option "fd" "45"
+[    26.621] (II) event1  - Sleep Button: device removed
+[    26.621] (**) Option "fd" "46"
+[    26.621] (II) event10 - ELAN050A:01 04F3:3158 Mouse: device removed
+[    26.621] (**) Option "fd" "47"
+[    26.621] (II) event11 - ELAN050A:01 04F3:3158 Touchpad: device removed
+[    26.621] (**) Option "fd" "48"
+[    26.621] (II) event4  - AT Translated Set 2 keyboard: device removed
+[    26.621] (**) Option "fd" "49"
+[    26.621] (II) event9  - Acer WMI hotkeys: device removed
+[    26.630] (II) UnloadModule: "libinput"
+[    26.630] (II) systemd-logind: releasing fd for 13:73
+[    26.631] (II) UnloadModule: "libinput"
+[    26.631] (II) systemd-logind: releasing fd for 13:68
+[    26.631] (II) UnloadModule: "libinput"
+[    26.631] (II) systemd-logind: releasing fd for 13:75
+[    26.631] (II) UnloadModule: "libinput"
+[    26.631] (II) systemd-logind: releasing fd for 13:74
+[    26.631] (II) UnloadModule: "libinput"
+[    26.631] (II) systemd-logind: releasing fd for 13:65
+[    26.631] (II) UnloadModule: "libinput"
+[    26.631] (II) systemd-logind: releasing fd for 13:66
+[    26.631] (II) UnloadModule: "libinput"
+[    26.631] (II) systemd-logind: releasing fd for 13:69
+[    26.631] (II) UnloadModule: "libinput"
+[    26.631] (II) systemd-logind: releasing fd for 13:70
+[    26.631] (II) UnloadModule: "libinput"
+[    26.631] (II) systemd-logind: releasing fd for 13:67
+[    26.632] (II) UnloadModule: "libinput"
+[    26.632] (II) systemd-logind: releasing fd for 13:71
+[    26.688] (II) NVIDIA(GPU-0): Deleting GPU-0
+[    26.706] (II) Server terminated successfully (0). Closing log file.

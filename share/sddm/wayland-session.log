@@ -1,0 +1,31 @@
+pci id for fd 48: 10de:25a0, driver (null)
+pci id for fd 49: 10de:25a0, driver (null)
+Fontconfig warning: using without calling FcInit()
+xkbcommon: ERROR: [XKB-595] Unrecognized RMLVO option "lv3:ctrl_alt_switch" was ignored
+xkbcommon: ERROR: [XKB-595] Unrecognized RMLVO option "lv3:ctrl_alt_switch" was ignored
+xkbcommon: ERROR: [XKB-595] Unrecognized RMLVO option "lv3:ctrl_alt_switch" was ignored
+xkbcommon: ERROR: [XKB-595] Unrecognized RMLVO option "lv3:ctrl_alt_switch" was ignored
+xkbcommon: ERROR: [XKB-595] Unrecognized RMLVO option "lv3:ctrl_alt_switch" was ignored
+xkbcommon: ERROR: [XKB-595] Unrecognized RMLVO option "lv3:ctrl_alt_switch" was ignored
+xkbcommon: ERROR: [XKB-595] Unrecognized RMLVO option "lv3:ctrl_alt_switch" was ignored
+xkbcommon: ERROR: [XKB-595] Unrecognized RMLVO option "lv3:ctrl_alt_switch" was ignored
+xkbcommon: ERROR: [XKB-595] Unrecognized RMLVO option "lv3:ctrl_alt_switch" was ignored
+pci id for fd 11: 10de:25a0, driver (null)
+pci id for fd 12: 10de:25a0, driver (null)
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86RefreshRateToggle
+> Warning:          Could not resolve keysym XF86Accessibility
+> Warning:          Could not resolve keysym XF86DoNotDisturb
+Errors from xkbcomp are not fatal to the X server
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Virtual modifier Hyper multiply defined
+>                   Using 0, ignoring 0
+> Warning:          Virtual modifier ScrollLock multiply defined
+>                   Using 0, ignoring 0
+> Warning:          Could not resolve keysym XF86RefreshRateToggle
+> Warning:          Could not resolve keysym XF86Accessibility
+> Warning:          Could not resolve keysym XF86DoNotDisturb
+Errors from xkbcomp are not fatal to the X server
+(EE) could not connect to wayland server
