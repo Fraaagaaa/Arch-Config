@@ -1,0 +1,22 @@
+{
+  "discord_desktop_core": {
+    "installedVersion": 1
+  },
+  "discord_erlpack": {
+    "installedVersion": 1
+  },
+  "discord_spellcheck": {
+    "installedVersion": 0,
+    "updateVersion": 1,
+    "updateZipfile": "/home/fraga/.config/discord/0.0.109/modules/pending/discord_spellcheck-1.zip"
+  },
+  "discord_utils": {
+    "installedVersion": 0
+  },
+  "discord_voice": {
+    "installedVersion": 0
+  },
+  "discord_zstd": {
+    "installedVersion": 0
+  }
+}

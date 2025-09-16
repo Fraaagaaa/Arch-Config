@@ -1,0 +1,17 @@
+9/11/2025, 10:48:25 AM GMT+2 0: 
+
+----------------------------------------------
+9/11/2025, 10:48:25 AM GMT+2 1: Discord starting: {"releaseChannel":"stable","version":"0.0.109"}, modulepath: /home/fraga/.config/discord/0.0.109/modules
+9/11/2025, 10:48:25 AM GMT+2 2: ✅ webContents.created web1 ""
+9/11/2025, 10:48:25 AM GMT+2 3: ✅ window.created win1 "discord"
+9/11/2025, 10:48:25 AM GMT+2 4: ✅ webContents.did-finish-load web1
+9/11/2025, 10:48:27 AM GMT+2 5: window.close win1
+9/11/2025, 10:48:27 AM GMT+2 6: webContents.destroyed web1
+9/11/2025, 10:48:55 AM GMT+2 0: 
+
+----------------------------------------------
+9/11/2025, 10:48:55 AM GMT+2 1: Discord starting: {"releaseChannel":"stable","version":"0.0.109"}, modulepath: /home/fraga/.config/discord/0.0.109/modules
+9/11/2025, 10:48:55 AM GMT+2 2: ✅ webContents.created web1 ""
+9/11/2025, 10:48:55 AM GMT+2 3: ✅ window.created win1 "discord"
+9/11/2025, 10:48:55 AM GMT+2 4: ✅ webContents.did-finish-load web1
+9/11/2025, 10:48:57 AM GMT+2 5: window.close win1

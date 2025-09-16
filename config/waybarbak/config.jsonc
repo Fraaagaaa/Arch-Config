@@ -1,0 +1,54 @@
+{
+  "position": "top",
+
+  "modules-left":  ["hyprland/workspaces"],
+  "modules-center":["hyprland/window"],
+
+  // Ahora incluye Bluetooth
+  "modules-right": ["bluetooth", "network", "pulseaudio", "battery", "clock"],
+
+  "clock": {
+    "format": "<span foreground='#f5c2e7'>   </span>{:%H:%M}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+
+  "battery": {
+    "states": { "warning": 30, "critical": 15 },
+    "format":          "<span size='13000' foreground='#a6e3a1'>{icon} </span>{capacity}%",
+    "format-warning":  "<span size='13000' foreground='#B1E3AD'>{icon} </span>{capacity}%",
+    "format-critical": "<span size='13000' foreground='#E38C8F'>{icon} </span>{capacity}%",
+    "format-charging": "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%",
+    "format-plugged":  "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%",
+    "format-alt":      "<span size='13000' foreground='#B1E3AD'>{icon} </span>{time}",
+    "format-full":     "<span size='13000' foreground='#B1E3AD'></span>{capacity}%",
+    "format-icons":    ["", "", "", "", ""],
+    "tooltip-format":  "{time}"
+  },
+
+  "bluetooth": {
+    "format":            "<span size='13000' foreground='#89CFF0'> {status}</span>",
+    "format-disabled":   "<span size='13000' foreground='#333333'> Off</span>",               // muestra icono siempre
+    "format-connected":  "<span size='13000' foreground='#6495ED'> {num_connections} connected</span>",
+    "tooltip-format":    "{controller_alias}\t{controller_address}",
+    "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+    "on-click": "rofi-bluetooth"
+  },
+
+  "network": {
+    "interface": "wlan0",
+    "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
+    "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰤭  </span> Disconnected",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "<span size='13000' foreground='#f5e0dc'>  </span>Disconnected",
+    "tooltip-format-wifi": "Signal Strenght: {signalStrength}%",
+    "on-click": "nm-connection-editor"
+  },
+
+  "pulseaudio": {
+    "format": "{icon}  {volume}%",
+    "format-muted": "",
+    "format-icons": { "default": ["", "", ""] },
+    "on-click": "pavucontrol"
+  }
+}
