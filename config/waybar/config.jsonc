@@ -44,8 +44,8 @@
     "tooltip-format": "<span color='#FF1493'> 󰅧 </span>{bandwidthUpBytes}  <span color='#00BFFF'> 󰅢 </span>{bandwidthDownBytes}",
     "format-linked": "<span color='#FFA500'> 󱘖 </span>{ifname} (No IP) ",
     "format-disconnected": "<span color='#FF4040'>  </span>Disconnected ",
-    "format-alt": "<span color='#00FFFF'> 󰤨 </span>{signalStrength}% ",
-    "interval": 1
+    "interval": 1,
+    "on-click": "kitty nmtui"
   },
   "battery": {
     "states": {
@@ -69,9 +69,9 @@
       "portable": "<span color='#00FFFF'>  </span>",
       "car": "<span color='#FFA500'>  </span>",
       "default": [
-        "<span color='#808080'>  </span>",
-        "<span color='#FFFF66'>  </span>",
-        "<span color='#00FF7F'>  </span>"
+        "<span color='#808080'>   </span>",
+        "<span color='#FFFF66'>   </span>",
+        "<span color='#00FF7F'>   </span>"
       ]
     },
     "on-click": "pavucontrol -t 3",
